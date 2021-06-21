@@ -1,3 +1,5 @@
+### Clustering of Phonemes and Segmentation of Image data
+
 In the first part of the assignment, we assume that data from a single class, is coming from multi-modal
 Gaussian distribution. But we do not know how many modes / clusters are there in the data. We
 begin by considering the problem of identifying groups or clusters of data points in a
@@ -16,7 +18,9 @@ class is coming from several Gaussian Mixture models.
 Real World data also shows similar behaviour.
 The decision boundary obtained in Non Linear and Real world data is very sophisticated hyper
 plane compared to the decision boundary obtained with Bayesian Classifier.
+
 Scene Image data, since we considered non overlapping 32*32 patches, the accuracy generally
-low.
+low. 
+
 Cell Image data, since we considered overlapping patches, although we ran GMM with reduced
 set of training data points, segmentation appears close to the original image.
